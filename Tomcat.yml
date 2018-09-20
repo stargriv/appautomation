@@ -2,5 +2,5 @@
 - hosts: tag_ProductID_Tomcat
   user: ec2-user
   tasks:
-    - name: Example for Development Tomcat
-      shell: echo "Install and configure Tomcat for devvelopment environment"
+    - name: Example for Preproduction Tomcat
+      shell: echo "Install and configure Tomcat for preproduction environment"
