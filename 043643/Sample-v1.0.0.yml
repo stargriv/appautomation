@@ -3,11 +3,10 @@
   gather_facts: no
   remote_user: ec2-user
   become: yes
-
   tasks:
   - name: Download WAR to server
     copy:
-     src: /opt/dev-ansible/playbooks/DEV01/appautomation/043643/sample-1.0.0.war
+     src: /ansible/playbooks/DEV01/appautomation/043643/sample-1.0.0.war
      dest: /opt/tomcat/webapps/sample-1.0.0.war
      owner: tomcat
      group: tomcat
