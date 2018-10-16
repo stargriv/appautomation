@@ -1,6 +1,0 @@
----
-- hosts: tag_ProductID_Tomcat
-  user: ec2-user
-  tasks:
-    - name: Example for Tomcat Instance
-      shell: echo "Install and configure Tomcat"
