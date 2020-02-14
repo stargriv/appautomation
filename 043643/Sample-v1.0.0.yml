@@ -5,7 +5,7 @@
   tasks:
   - name: Download WAR to server
     copy:
-     src: 043643/sample-1.0.0.war
+     src: sample-1.0.0.war
      dest: /opt/tomcat/webapps/sample-1.0.0.war
      owner: tomcat
      group: tomcat
